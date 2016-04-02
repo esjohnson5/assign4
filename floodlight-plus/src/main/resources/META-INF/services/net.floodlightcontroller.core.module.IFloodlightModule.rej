@@ -1,0 +1,9 @@
+--- src/main/resources/META-INF/services/net.floodlightcontroller.core.module.IFloodlightModule	2015-04-13 19:58:43.667712423 -0500
++++ src/main/resources/META-INF/services/net.floodlightcontroller.core.module.IFloodlightModule	2015-04-13 19:59:10.695712423 -0500
+@@ -26,3 +26,6 @@
+ org.sdnplatform.sync.internal.SyncManager
+ org.sdnplatform.sync.internal.SyncTorture
+ net.floodlightcontroller.devicemanager.internal.DefaultEntityClassifier
++edu.wisc.cs.sdn.apps.l3routing.L3Routing
++edu.wisc.cs.sdn.apps.loadbalancer.LoadBalancer
++edu.wisc.cs.sdn.apps.util.ArpServer
